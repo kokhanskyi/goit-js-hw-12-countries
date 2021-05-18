@@ -1,7 +1,19 @@
-/*
- * Главный файл стилей.
- * Все паршалы подключаются сюда.
- */
+body {
+  background-color: rgb(228, 228, 245);
+}
+.conteiner {
+  margin: 80px 400px;
+  font-size: 28px;
+}
 
-// Стили для файла с примером HTML-фрагмента
-@import './example';
+.search {
+  background-color: rgb(226, 219, 219);
+}
+.countries {
+  list-style-type: none;
+  font-size: 24px;
+}
+
+img {
+  width: 200px;
+}
